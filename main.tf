@@ -1,10 +1,10 @@
 terraform {
   cloud {
-    organization = "JJKIM"
+    organization = "yoojonglee"
     hostname     = "app.terraform.io" # default
 
     workspaces {
-      name = "terraform-edu-chapter7-github-action"
+      name = "terraform-edu-chapter7-github-action-JJKIM"
     }
   }
   required_providers {
