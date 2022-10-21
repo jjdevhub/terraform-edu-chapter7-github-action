@@ -1,5 +1,7 @@
 name: Terraform DEV Destroy
 
+on:
+
 env:
   MY_PREFIX: DEV
   TF_VERSION: 1.2.5
