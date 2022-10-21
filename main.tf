@@ -1,12 +1,12 @@
 terraform {
-  cloud {
-    organization = "JJKIM"
-    hostname     = "app.terraform.io" # default
+#   cloud {
+#     organization = "JJKIM"
+#     hostname     = "app.terraform.io" # default
 
-    workspaces {
-      name = "terraform-edu-chapter7-github-action"
-    }
-  }
+#     workspaces {
+#       name = "terraform-edu-chapter7-github-action"
+#     }
+#   }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
