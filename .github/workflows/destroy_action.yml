@@ -1,6 +1,7 @@
 name: Terraform DEV Destroy
 
 on:
+  push:
 
 env:
   MY_PREFIX: DEV
